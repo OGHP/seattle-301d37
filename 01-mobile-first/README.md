@@ -14,9 +14,13 @@
 - Today's Schedule
   - All about 301
   - Agile Development Process
+  - *Break*
   - Shred Talk - Array.forEach()
   - MVC and Responsive Design
   - Responsive CSS and Layout Demo
+  - *Break*
+  - Whiteboarding Demo
+  - Pair Programming Demo
   - Lab Preview
 
 ## 301 FTW!
@@ -26,8 +30,10 @@
  - $()
  - ${}
  - =>
+ - () ? ... : 
  
 ### Word Salad
+ - Scope
  - Agile
  - Stories
  - Deployment
@@ -38,9 +44,13 @@
  - Services
  - Functional Programming
  - Express
- - Node 
+ - Node
+ - Postgres
 
 ### Alphabet Soup
+ - ES6
+ - SMACCS
+ - RWD
  - AJAX
  - JSON
  - WRRC
@@ -51,6 +61,7 @@
  - API
  - NPM
  - EJS
+ - VIM
  
 ### The Ultimate Question
  - **How does the internet work?**
