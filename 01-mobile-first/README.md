@@ -11,14 +11,13 @@
 * In-Depth (optional) [Dale Sande’s intro](http://www.anotheruiguy.com/ux-design-dev/_book/rwd/README.html) to RWD (Reference)
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
-- Code Review
-- New Material
-- Code Demos
-- Lab Preview
+- Today's Schedule
+  - All about 301
+  - Agile Development Process
+  - Shred Talk - Array.forEach()
+  - MVC and Responsive Design
+  - Responsive CSS and Layout Demo
+  - Lab Preview
 
 ## Learning Objectives
 
