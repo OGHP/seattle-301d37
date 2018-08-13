@@ -19,6 +19,44 @@
   - Responsive CSS and Layout Demo
   - Lab Preview
 
+## 301 FTW!
+
+### Organization, Workflow, Time Management
+### Punctuation FF&P
+ - $()
+ - ${}
+ - =>
+ 
+### Word Salad
+ - Agile
+ - Stories
+ - Deployment
+ - Heroku
+ - Handlebars & Mustaches
+ - Clients
+ - Servers
+ - Services
+ - Functional Programming
+ - Express
+ - Node 
+
+### Alphabet Soup
+ - AJAX
+ - JSON
+ - WRRC
+ - HTML
+ - RDBMS
+ - REST
+ - SQL
+ - API
+ - NPM
+ - EJS
+ 
+### The Ultimate Question
+ - **How does the internet work?**
+   - 42
+   
+   
 ## Learning Objectives
 
 * What is "Mobile First" design?
