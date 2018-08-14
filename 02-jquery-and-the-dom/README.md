@@ -10,13 +10,13 @@
   * (Context: 293-301; Essential: 310-325; Reference: 302-309)
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- Day 1 Review
+- Whiteboarding
 - Code Review
-- New Material
-- Code Demos
+- Fun with CSS (menus)
+- Shred Talk - Nested For Loops
+- JS History Lesson, jQuery and the DOM (Slides)
+- Code Demo
 - Lab Preview
 
 ## Learning Objectives
