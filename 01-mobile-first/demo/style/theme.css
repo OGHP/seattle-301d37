@@ -1,0 +1,16 @@
+.deck {
+  border-bottom: 1px solid #ccc;
+  margin: 1em;
+}
+
+.card {
+  border: 1px solid red;
+  padding: 1em;
+  margin: 1em;
+}
+
+@media (min-width: 768px) {
+  .deck.cols-2 .card {
+    width: calc(50% - 2em);
+  }
+}
