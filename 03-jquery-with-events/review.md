@@ -1,21 +1,39 @@
 # Let's Review ...
 
-#### What is a callback function?
- 
+#### What is *webkit* 
+
+#### What components/tools does the browser use to render a page?
+
+#### In the code below, what is `this`?  `$(this)`?
+```
+function somethingAwesome(name,title) {
+  this.name = name;
+  $('li').on('click', function() {
+      $(this).text(title);
+  });
+}
+
+let thing = new somethingAwesome('baldness','bling');
+```
+
+#### Describe the difference between the "Sources" and "Elements" tab in the inspector.
+
 #### What 4 basic elements make up a card?
 
-#### In a`for` loop, the `continue` statement does what
- - Exits the loop
- - Skips over the current item
+#### What is *$* in jQuery?  Describe how it is structured.
 
-#### Name 3 ways a deck can layout cards
+#### What is a callback function?
 
-#### What would the following media queries target?
-`@media only screen and (max-width: 768px) {...}`
-`@media only screen and (orientation: landscape) {...}`
-`@media print {...}`
-`@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {...}`
+#### Given the following markup, how would you position the `<aside>` to bottom right of the section?  To the top right of the article?
+
+```
+<section>
+  <article>
+    <aside></aside>
+  </article>
+</section> 
+```
+
+#### Name 3 ways to clear a float
 
 #### What does the .forEach() method do on an array?
-
-#### True or False - When doing mobile first development, your media queries should begin by targeting small screens.
