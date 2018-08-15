@@ -11,13 +11,17 @@
   *(Context: 354-361; Essential: 322-353; Reference: 362-366)*
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- Day 2 Review
+  - Lab Assignment Instructions, Confusion
+  - File Layouts and Structure
+  - Better approach to grokking a lot of code 
+  - No, CSS does not suck!
+- Whiteboarding
 - Code Review
-- New Material
-- Code Demos
+- Fun with CSS (card layouts)
+- Shred Talk - Revisit 2D Arrays
+- jQuery Events (EDD)
+- Code Demo
 - Lab Preview
 
 ## Learning Objectives
