@@ -11,13 +11,13 @@
 * [Learn Handlebars.js in 10 Minutes tutorial](http://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes/) (Essential)
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- Quiz/Review Day 03
+- Whiteboarding
 - Code Review
-- New Material
-- Code Demos
+- Regular Expressions
+- MVC
+- Templating
+- Code Demo
 - Lab Preview
 
 ## Learning Objectives
