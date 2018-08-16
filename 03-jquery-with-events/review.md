@@ -1,6 +1,6 @@
 # Let's Review ...
 
-#### What is *webkit* 
+#### What is *webkit*?
 
 #### What components/tools does the browser use to render a page?
 
@@ -34,6 +34,6 @@ let thing = new somethingAwesome('baldness','bling');
 </section> 
 ```
 
-#### Name 3 ways to clear a float
+#### Name 3 ways to clear a float.
 
 #### What does the .forEach() method do on an array?
