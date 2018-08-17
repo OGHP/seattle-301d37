@@ -11,6 +11,11 @@
 * [Learn Handlebars.js in 10 Minutes tutorial](http://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes/) (Essential)
 
 ## Daily Plan
+- Feedback
+  - Driver/Navigator!
+  - Date Sorting
+  - When to get help
+  - Digesting the totality of the problem
 - Quiz/Review Day 03
 - Whiteboarding
 - Code Review

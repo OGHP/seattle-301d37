@@ -5,6 +5,7 @@ let obj = {
   myVar: 'foo',
 
   myFunc: function() {
+
     console.log(this.myVar);
 
     setTimeout(function() {
@@ -26,3 +27,12 @@ let obj = {
 obj.myFunc();
 obj.myArrowFunc();
 
+// In situations where you DEPEND on context, arrow functions are a non-starter
+$('p').on('click', function() {
+  $(this).explode();
+});
+
+// Here, 'this' isn't what you think it is...
+$('p').on('click', () => {
+  $(this).explode();
+});
