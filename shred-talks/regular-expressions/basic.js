@@ -1,6 +1,6 @@
 'use strict';
 
-let str = 'the rain in spain falls mainly in may';
+let str = 'the rain in spain falls mainly in the plain';
 
 let regex = /[A-Z]/g;
     regex = /s.?([A-Za-z]in)\s+/g;
@@ -8,9 +8,9 @@ let regex = /[A-Z]/g;
 let wordSeparators = /\W/g;
 let firstLetters = /\b(\w)/g;
 
-console.log( regex.test(str) );
+console.log(str.match(/([A-Za-z]in)\b/g));
 
-console.log( str.match(regex) );
+console.log( regex.test(str) );
 
 console.log( str.replace(wordSeparators,'_') );
 
@@ -24,3 +24,5 @@ let email = 'john@here.com';
 let validator = /(.*?)@(.*?)\.(com|net|org)/g;
 console.log(validator.test(email));
 console.log(email.match(validator))
+
+
