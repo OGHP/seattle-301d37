@@ -1,23 +1,75 @@
 ![CF](https://i.imgur.com/7v5ASc8.png)  Object Iteration
 =======
 ## Overview
-Just like with arrays, you'll often want to iterate 
+Just like with arrays, you'll often want to iterate over objects. But unlike arrays, objects have more than just one moving part ... and very often, they go deeper than just a single property.
 
-
-It is implemented as a method on your array instance ...
 ```
-let shoutIt = word => console.log(word.toUpperCase());
-let sayIt = word => console.log(word);
+let person = 
+  {
+    "name":"John",
+    "role":"Dad",
+    "interests": ["Coaching","Teaching"]
+  };
+```
 
-// This function takes in a function as a parameter and calls it.
-let sayTheWord = function (word, speaker) {
-  speaker(word);
-};
 
-// And here, we invoke it with different "callbacks"
-sayTheWord('Hello', sayIt);
-sayTheWord('Hello', shoutIt);
+To iterate over the properties of an object, there are various ways to iterate or traverse. These will only give you access to the current layer, however.  If you want to fully traverse the object and any sub-objects or arrays, you'll need to nest...
 
+
+**for ... in** ... a looping method for objects that acts much like an old fashioned "for" loop. 
+```
+for( let property in person ) { 
+  console.log(property, person[property]);
+})
+```
+
+
+**Object.keys** ... this is an Object constructor prototype method, which takes in an object as an argument and returns an array of keys (properties)
+```
+let properties = Object.keys(person);
+properties.forEach( property => {
+  console.log(property, person[property]);
+})
+
+// Or more succinctly
+Object.keys(person).forEach( property => {
+  console.log(property, person[property]);
+})
+```
+
+**Object.values** - Returns an iterable array of just the values from the object.
+```
+console.log(Object.values(person));
+// OUTPUT
+    [ 
+        'John', 
+        'Dad', 
+        [ 'Coaching', 'Teaching' ] 
+    ]
+
+// To Iterate it ...
+Object.values(person).forEach(value => {
+  console.log(value);
+})
+
+// OUTPUT
+    John
+    Dad
+    ['Coaching', 'Teaching']
+```
+
+**Object.entries** - Returns an array of each "Entry" as an an array with a key and value
+```
+Object.entries(person).forEach(entry => {
+  console.log(entry);
+})
+
+// OUTPUT
+[
+    [ 'name', 'John' ],
+    [ 'role', 'Dad' ],
+    [ 'interests', [ 'Coaching', 'Teaching' ] ],
+]
 ```
 
 ### Caveats and Notes

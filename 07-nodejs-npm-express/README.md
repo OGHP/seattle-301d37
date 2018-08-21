@@ -17,13 +17,12 @@ Not a reading, but useful: [JSONLint](http://jsonlint.com/) is your friend when 
 
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- Quiz & Review
+- Whiteboarding
 - Code Review
-- New Material
-- Code Demos
+- Shred Talk - Object Iteration and array.map()
+- Lecture - Node and NPM
+- Your Very Own Web Server!
 - Lab Preview
 
 ## Learning Objectives
