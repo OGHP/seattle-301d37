@@ -1,0 +1,22 @@
+[
+  {
+    "name":"John",
+    "role":"Dad",
+    "interests": ["Coaching","Teaching"]
+  },
+  {
+    "name":"Cathy",
+    "role":"Mom",
+    "interests": ["Running", "Science-y Stuff"]
+  },
+  {
+    "name":"Zach",
+    "role":"Child",
+    "interests":["Baseball","Horror Movies"]
+  },
+  {
+    "name":"Allie",
+    "role": "Child",
+    "interests": ["Flying", "Serving"]
+  }
+]

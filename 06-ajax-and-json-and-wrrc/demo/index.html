@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Ajax Demo</title></head>
+  <body>
+
+    <h1>Some Nerdy Stuff from SWAPI</h1>
+    <ul> </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+
+      $('h1').on('click', function() {
+        console.log("Before the get");
+        // Try this with $.ajax() and $.get() ...
+        // The Star Wars API even lets you post, so you can do $.post() and $.ajax(...method:POST) for fun
+        $.getJSON('http://127.0.0.1:8080/family.json')
+        .then(data => {
+          console.log("Got the data");
+          data.forEach(person => {
+            $('ul').append(`<li>${person.name} / ${person.role}</li>`);
+          })
+        });
+        console.log("After the get");
+      });
+
+      // $.get();
+      // $.getJSON();
+    </script>
+  </body>
+</html>
