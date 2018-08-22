@@ -14,9 +14,11 @@
 * [A Primer on SQL](https://openlibra.com/en/book/a-primer-on-sql-3rd-edition) (Reference, click the blue Download button)
 * [SQL Cheat Sheet](http://www.cheat-sheets.org/sites/sql.su/) (Reference)
 
-## Resources
+## Playgrounds
 * [SQL Fiddle](http://sqlfiddle.com/)
 * [Playground @ W3Schools](https://www.w3schools.com/sql/trysql.asp?filename=trysql_op_in)
+
+#### Go to the playgrounds and GET DIRTY!
 
 ## Daily Plan
 - Warm-Up
