@@ -15,12 +15,11 @@
 * [SQL Cheat Sheet](http://www.cheat-sheets.org/sites/sql.su/) (Reference)
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- Warm-Up
+- Whiteboarding
+- Shred Talk - `array.filter()`
 - Code Review
-- New Material
+- SeeQuil
 - Code Demos
 - Lab Preview
 

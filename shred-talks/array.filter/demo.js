@@ -7,22 +7,12 @@ let people = [
   { name: 'Allie', role: 'Kid' },
 ];
 
+let parents = people.filter(person => person.role !== "Kid");
+console.log(parents);
+
 let nums = [1,2,3,4,5,6,7];
-
-for(var i = 0; i < nums.length; i++ ) {
-  nums[i] = nums[i] * nums[i];
-}
-
-nums;
-
-let squares = nums.map( (value) => {
-  return { num: value, squared: value * value };
+let evens = nums.filter( (num) => {
+  return !(num % 2);
 });
-
-let addOne = nums.map(x=>x + 1);
-addOne;
-
-squares;
-nums;
-
+console.log(evens);
 

@@ -5,6 +5,8 @@ let person =
     'interests': ['Coaching','Teaching'],
   };
 
+console.log(person.name);
+
 // for ... in
 for( let property in person ) {
   console.log(property, person[property]);
