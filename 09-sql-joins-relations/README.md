@@ -12,12 +12,12 @@
 * [Visual Guide to SQL Joins](http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins)
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- Warmup
+- Quiz
+- Whiteboarding
 - Code Review
-- New Material
+- Modeling/Normalization
+- JOIN.me
 - Code Demos
 - Lab Preview
 
