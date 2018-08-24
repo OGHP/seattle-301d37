@@ -7,7 +7,8 @@
 `.reduce()` iterates over an array and returns the last version of the "accumulator" ... in each iteration, based on the value and/or idx of the current element in the array, you have the opportunity to modify and return the accumulator. After the last iteration of the array, that accumulator value is returned to the caller. `initialvalue` represents the value of the accumulator in the first iteration.
 
 
-*Add up all the numbers in an array*
+**Add up all the numbers in an array**
+
 In ths example, the accumulator starts out as 0 (the initialvalue) and for each iteration, we simply add onto it, and then return it.  That return value gets fed into the next iteration so that you can continually operate on it and return the final value.
 ```
 let numbers = [1,2,3,4];
@@ -19,7 +20,8 @@ let sum = numbers.reduce( function(accumulator,value,idx) {
 // sum would be 10
 ```
 
-*Change the shape of you data*
+**Change the shape of you data**
+
 In this example, we'll take an array of objects and return back an object, keyed by the 'name' property. The initial value is an empty object, and as we iterate, we create a new entry in it, returning it as we build on. 
 ```
   let people = [
