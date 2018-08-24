@@ -10,27 +10,9 @@
 * [SQLBolt (Lessons 6-7) (Essential)](http://sqlbolt.com/lesson/select_queries_with_joins)
 * [A Primer on SQL (Chapter 11) (Reference)](https://ia801302.us.archive.org/6/items/aprimeronsql/aprimeronsql.pdf)
 * [Visual Guide to SQL Joins](http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins)
-
-## Daily Plan
-- Warmup
-- Quiz
-- Whiteboarding
-- Code Review
-- Modeling/Normalization
-- JOIN.me
-- Code Demos
-- Lab Preview
+* [Joins Cheat Sheet](../cheatsheets/joins.md);
 
 ## Learning Objectives
-<!--
-ABCD:
-  Audience: Program participants
-  Behavior: Expected learning/behavior changes/results
-  Condition:
-    Circumstances that lead to change/result
-    When change/result are expected to occur
-  Degree: How much change occurs (%) for how many participants (#)
--->
 
 - Understand how objects in a database can be interrelated with foreign keys
 - Have familiarity with queries using SQL that select data from across multiple tables
