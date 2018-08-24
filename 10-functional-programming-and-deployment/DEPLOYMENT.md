@@ -10,27 +10,31 @@
 - [Deploying a Simple Blog to Heroku](https://howtonode.org/deploy-blog-to-heroku)
 - [IaaS, PaaS, SaaS (Explained and Compared)](https://apprenda.com/library/paas/iaas-paas-saas-explained-compared/)
 
-## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
+## Deployment Instructions / Checklist
+- [ ] heroku create [name]
+  - *Creates an app on heroku.com and a git remote*
+  
+- [ ] heroku git:remote -a [appname]
+  - ** (for an existing app)
 
-- Code Review
-- New Material
-- Code Demos
-- Lab Preview
+- [ ] git remote -v
+- [ ] git push heroku master
+- [ ] git push heroku [branch]:master (for a branch)
+- [ ] heroku addons
+- [ ] heroku addons:create heroku-postgresql:hobby-dev
+- [ ] heroku pg:info
+- [ ] heroku pg:push kilovolt [postgres-db-name] --app [appname]
+- [ ] https://[appname].herokuapp.com
+  - Should be a welcome page, with SWAPI data in the console
+- [ ] https://[appname].herokuapp.com/proof-of-life
+  - Should say Hello World
+- [ ] https://[appname].herokuapp.com/articles
+  - Should be a JSON array of your articles
+- [ ] https://[appname].herokuapp.com/asdlfkjdfs
+  - Should give you an error
+
 
 ## Learning Objectives
-<!--
-ABCD:
-  Audience: Program participants
-  Behavior: Expected learning/behavior changes/results
-  Condition:
-    Circumstances that lead to change/result
-    When change/result are expected to occur
-  Degree: How much change occurs (%) for how many participants (#)
--->
-
 - Be able to push a dev site to production, so the world can see it.
 - Understand the difference between a static page and a dynamically generated app page.
 
