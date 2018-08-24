@@ -55,4 +55,5 @@ SSimilar to `array.map()`, the `array.filter()` function iterates over an array 
 
 ## Reference
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* [Medium](https://medium.com/@JeffLombardJr/understanding-foreach-map-filter-and-find-in-javascript-f91da93b9f2c)
 
