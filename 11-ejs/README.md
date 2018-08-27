@@ -6,8 +6,10 @@ Today is the first day of our new project, a mobile-only book collection. You wi
 
 ## Daily Plan
 
-- Warm-up exercise
-- Review code challenges
+- Review
+- Whiteboarding!
+- Code Review
+- How the web REALLY works
 - Full-stack application skeleton scaffolding
 - Server-side templating
 - Code Demo
