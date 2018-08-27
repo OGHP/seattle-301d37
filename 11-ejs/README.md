@@ -6,6 +6,11 @@ Today is the first day of our new project, a mobile-only book collection. You wi
 
 ## Daily Plan
 
+- Feedback
+  - Imposter Syndrome ...
+  - Starter Code
+  - Cheating is winning
+  - Patterns
 - Review
 - Whiteboarding!
 - Code Review
