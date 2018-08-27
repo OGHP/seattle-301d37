@@ -22,8 +22,8 @@ let app = {};
 console.log("Before", app);
 
 (function(module) {
-    app.one = 1;
-    app.ten = () => 10;
+    module.one = 1;
+    module.ten = () => 10;
 })(app);
 
 console.log("After", app);
