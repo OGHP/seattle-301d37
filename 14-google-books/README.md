@@ -6,9 +6,29 @@ Today is the final buildout of the book collection app. Our final step is to inc
 
 ## Daily Plan
 
-- Warm-up exercise
-- Review code challenges
-- Code review of lab assignment
+- Project Basics
+  - Do some CRUD
+  - Got to use an API!
+    - Get Stuff
+    - Analyze Stuff
+  - No Maps!
+- Project Ideas
+  - Blog
+  - Interview Tracker
+  - Image Analyzer
+  - Twilio (text your zip code to blah blah blah and magic happens)
+- Previous 301 Project Links
+  - [Business Card Index](https://pop-client-staging.herokuapp.com/)
+  - [Forum](http://www.d29forum.us/)
+  - [Fozzie](https://team-fozzie.github.io/Fozzie-s-Website-Builder-Client/)
+- Lab Review and Notes
+  - Breaking down requirements!
+  - Splitting up work
+  - Importance of stable environments
+  - Data Migrations
+  - Environments
+  - Data and Code Flow
+- Code review
 - Data modeling
 - Google Books API
 - Code Demo
