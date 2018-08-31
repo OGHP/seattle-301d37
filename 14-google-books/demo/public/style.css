@@ -1,3 +1,6 @@
+* {
+    box-sizing:border-box;
+}
 body, html {
     height:100%;
 }
@@ -86,7 +89,7 @@ main h2 {
     margin:1em;
     padding:.5em;
     position:relative;
-    width: calc(33% - 3em);
+    width:250px;
 }
 
 .listings li:hover {
@@ -118,6 +121,7 @@ main h2 {
 
 .listings form {
    align-self:flex-end;
+    z-index:10000;
 }
 
 .actions {

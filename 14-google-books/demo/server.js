@@ -1,9 +1,9 @@
 'use strict';
 
 require('dotenv').config();
-const superagent = require('superagent');
 const express = require('express');
 const pg = require('pg');
+const superagent = require('superagent');
 
 const PORT = process.env.PORT;
 const CONSTRING = process.env.DATABASE_URL;
@@ -18,7 +18,7 @@ client.connect();
 // ROUTES
 app.get('/', showCategories);
 app.get('/links/:category/:id', showLinks);
-app.get('/search/:category/:id', searchGoogle);
+app.get('/search/:category/:id', runSearch);
 app.get('/add-link/:category/:id', addLinkForm);
 app.post('/add-link', addLink);
 
@@ -81,33 +81,41 @@ function addLink( request, response ) {
 
 }
 
-function searchGoogle( request, response ) {
-  let googleURL = 'https://www.googleapis.com/customsearch/v1?cx=005508244765091263853:4duqobz0ceo&key=AIzaSyA_2oJ5qNeQsLbwx8QQCigjIWAAYt9b_2I&q=' + encodeURIComponent(request.params.category);
+function runSearch( request, response ) {
+  // https://www.googleapis.com/customsearch/v1?cx=005508244765091263853:4duqobz0ceo&key=AIzaSyA_2oJ5qNeQsLbwx8QQCigjIWAAYt9b_2I&q=Web%20Development
 
-  superagent.get(googleURL)
+  let url = 'https://www.googleapis.com/customsearch/v1';
+  let params = {
+    cx:process.env.GOOGLE_CX,
+    key:process.env.GOOGLE_KEY,
+    q:encodeURIComponent(request.params.category)
+  };
+  let queryString = '';
+  Object.keys(params).forEach( (val) => {
+    queryString += val + "=" + params[val] + '&';
+  });
+
+  url = url + '?' + queryString;
+
+  superagent.get(url)
     .then( results => {
-      let listings = results.body && results.body.items && results.body.items.reduce( (items,item) => {
+      let listings = results.body.items.reduce( (items,item,idx) => {
         let listing = {
           title:item.title,
           url: item.link,
           description: item.snippet,
-          category_id: request.params.id,
-          category: request.params.category
+          category: request.params.category,
+          category_id: request.params.id
         };
         items.push(listing);
         return items;
       },[]);
 
-      let dataForTemplate = {
-        category:request.params.category,
-        items: listings
-      };
+      response.render('pages/search', {category:request.params.category, id:request.params.id, items:listings})
 
-      response.render('pages/search', dataForTemplate);
-    })
-    .catch( console.error );
+    });
+
 }
-
 app.use( express.static('./public') );
 
 app.listen( PORT, () => console.log("Server Up on ", PORT) );
