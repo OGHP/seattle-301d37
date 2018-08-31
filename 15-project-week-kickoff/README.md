@@ -122,12 +122,6 @@
 
 ---
 
-- Monday morning
-	- Get together with your team and complete the project proposal as outlined in the Day 16 README doc.
-	- Be sure to have a plan in place for your GitHub procedures within your team. This should be written down or shared in a document as THE source of truth.
-	- In addition to the project itself, be sure to put together a plan for how your team will address the problem domain and deconstruct it into tasks/TODO items.
-	- When your proposal is complete, meet with the instructional staff to get it reviewed and approved. After that you are ready to start building.
-
 - Daily during Project Week
 	- Standup meeting with instructional staff sometime during the morning
 	- You should do at least one other standup with your team each day
@@ -135,13 +129,4 @@
 	- Some subset of the instructional staff will be available to you between 8:00a and 7:00p each day.
 
 ## Learning Objectives
-<!--
-ABCD:
-  Audience: Program participants
-  Behavior: Expected learning/behavior changes/results
-  Condition:
-    Circumstances that lead to change/result
-    When change/result are expected to occur
-  Degree: How much change occurs (%) for how many participants (#)
--->
 There are no new learning objectives for this day, since it is primarily a review/transition day.
