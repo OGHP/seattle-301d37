@@ -7,46 +7,109 @@
 
 - The exam is open-book, open-Google, open-Stack_Overflow, whatever resources you want to use. The exam is designed to be, in spots, a little bit beyond what has been covered. The intent in those spots is to measure resourcefulness and ability to adapt and figure something out. Give yourselves adequate time for the exam: 1-2 hours depending if you are fast or slow on these kinds of things.
 
-## Daily Plan
+## Project Teams!
 
-**Review of the course**
+| Team Hanneman | Team Araya | Team King |
+|---------------|------------|-----------|
+| Candice       | Daniel     | Brai      |
+| Heather       | Trevor     | Hannah    |
+| Vince         | Jason      | Katherine |
+| Diego         | Kris       |           |
 
-- Think about if there are any topics you would like to review or revisit. We will open the second hour of class with those topics.
-- Where were we at the end of 201? [1](http://workoutchooser.site/) [2](https://ncarignan.github.io/Card-Fellows/) [3](https://ccloops.github.io/quiz-fellows/index.html) [4](https://queenskid.github.io/APFT-Coach/) [5](catfight.me) [6](http://layoutgenerator.online/) [7](https://willjreid.github.io/procrastinate/index.html) [8](https://twofacefear.github.io/dnd-character-creator/)
 
-**Code Review, Q&A, Booklist App Debugging **
+## Project Ideas
 
-`BREAK (10 minutes)`
+- Ranking system
+- Anime List based on user preferences (MAL API)
+- Journal which lets you enter your daily entry and flavors it with Inspirational Quotes and Info (Numbers and Forismatic API)
+- Public diary that shows entries from the current date from previous years from all users (interesting public experiment) ... what API?
+  - Maybe a name/avatar generator?
+  - Maybe use the mood api to generate that?
+- Music mood mapper (spotify playlist)
+- Halloween Costume Generator
+- Carnival style (guess your age) quiz that could use APIs as the source of questions
+- Connect to a brand's API (i.e. Marvel) and list auctions/items for sale
+- Programming Project Templater / Tracker
+- Twitter biggest stories of the day, perhaps categorized/filtered
+  - (John) Maybe this could aggregate from multiple media sources and rank on frequency/popularity?
+- QR Code Stickers for products you buy that link you to where you bought them.
+  - (John) Great idea, but I'm sure I see the API angle ... unless it's for related items.
+- DIRT FINDER
+  - (John) This is the type of thing that could legit be on the app store for ($)
+- Job Search tracker -- aggregate from multiple APIs the languages trending and pepper in reviews and salaries for the companies from Glassdoor.
 
-**Any requested topics for more specific review? Let's make a list!**
 
-- (topic 1?)
-- (topic 2?)
-- (topic 3?)
+## Final projects: Let's go over the requirements!
+- [ ] Must use an API
+- [ ] Must use a Database
+  - [ ] Create and Read are requirements
+  - [ ] Update and Delete are a desired stretch goal
+- [ ] Must be deployed to Heroku
+- [ ] Mobile First/Only -- think "App"
 
-**Let's look at a few prior 301 projects...**
 
-- [Seattle Field Finder](https://field-finder.herokuapp.com/)
-- [The 4th Bling](https://bling-4th-the-money.herokuapp.com/)
-- [Trivia Ninja](https://trivia-ninja.herokuapp.com/)
-- [Meteorite Mapper](https://meteorite-mapper.herokuapp.com/)
-- [Price I$ Right Parking](http://priceisrightparking.herokuapp.com/)
-- [Barkrawl](https://barkrawl.herokuapp.com/)
-- [Fremont Patroller](https://fremont-bike-patroller.herokuapp.com/)
-- [DroneStrike](https://whendronesattack.herokuapp.com/)
-- [Crime City](http://crime-city.herokuapp.com/)
+## Final Projects Schedule
 
-**Final projects: Let's go over the requirements!**
-
-- Work with an API. Check out [this great list of options](https://github.com/toddmotto/public-apis)!
-- Day [16](https://github.com/codefellows/seattle-301d20/blob/master/16-project-week-day-1/README.md): Getting started
-- Day [17](https://github.com/codefellows/seattle-301d20/blob/master/17-project-week-day-2/README.md): Big buildout day
-- Day [18](https://github.com/codefellows/seattle-301d20/blob/master/18-project-week-day-3/README.md): Aim for MVP
-- Day [19](https://github.com/codefellows/seattle-301d20/blob/master/19-project-week-day-4/README.md): Stretch goals, refinements
-- Day [20](https://github.com/codefellows/seattle-301d20/blob/master/19-project-week-day-4/README.md): Presentations! `Note: project requirements are in this document`
 - Do not forget the associated Canvas assignments! One is a group submission and the other is an individual submission!
 
-`BREAK (10 minutes)`
+### Day [1] (Friday) : Lay the groundwork for success
+  - Setup your working environment
+    - Git Repo
+    - README and Docs
+    - Git Issues & Project
+    - Every teammate has a working server and identical db setup
+  - Wireframes
+  - User and Data flow diagrams
+  - Enable your API
+    - Test it
+    - Get your access key, if needed
+  - Get your "Proof of Life" server and db up on Heroku
+    - 1 Table
+    - 1 Record
+    - Express Server, using .env
+    - Dependencies declared & loaded (dotenv, superagent, ejs, etc)
+    - 1 GET Route
+    - 1 View with Partials
+    - Error View
+    - 404 View
+    - CSS Delivered via public/static
+   
+
+### Over the weekend
+	- rest (not REST)
+	- relax
+	- breathe
+	- recuperate
+	- plan to plan to plan with your project team
+	- Take the 301 Final Exam (allow a couple of hours for it)  
+	
+### Day [2] (Tuesday): Big buildout day
+  - Create your issues and stories based on features
+    - Break them down into tasks
+  - Get the bare set of features working solidly 
+    - CRUD
+    - API Feeding Data
+    - All routes responding and functional
+  
+### Day [3] (Wednesday): MVP
+  - Add the UI Layer
+    - Styling
+    - Interactivity
+  - Full "UAT" 
+  - Identify and fix all of the edge cases
+  - Today, you'll be making many new issues of the "Bug" variety
+
+### Day [4] (Thursday): Stretch Goals / Refinements. **Code Freeze**
+  - This is all about flavor!
+  - No new features that can negatively effect (affect?) the core functionality
+    - i.e. "Bolt On" not "Retrofit"
+
+### Day [5] (Friday): Presentations!
+  - Powerpoint
+  - 1 Page per person
+  - 1 Page for the project idea
+  - 1 Page each for Hurdles and Wins
+
 
 **Additional topics related to final projects**
 
@@ -55,26 +118,9 @@
 - Async fun... it'll happen to you!
 - Reminder: [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
 - Another HTTP testing ground: [Postman](https://www.getpostman.com/)
-- The demo we did on the GitHub API would be useful if repurposed as an API sandbox to quickly get data to log into the console or view in the DOM, wouldn't it?
 - Wanna do something cool and next-level? Go buy a domain name and point it at your deployment! Suggested site to use: [NameCheap](https://www.namecheap.com/) has a lot of $0.88 domains!
 
 ---
-
-**Overall schedule from here on**
-
-- Friday afternoon:
-	- Discuss project possibilities with your team
-	- Begin testing/experimenting with APIs
-	- Apply for API access if necessary! This is important and necessary for *some* APIs that require a key/token/etc.
-	- As your ideas are coming together, bounce things off the instructor(s) and TA(s) to help manage project scope. Ideally these conversations can be held in group meetings with the entire team and all of the instructional staff, as much as possible.
-
-- Over the weekend
-	- rest (not REST)
-	- relax
-	- breathe
-	- recuperate
-	- plan to plan to plan with your project team
-	- Take the 301 Final Exam (allow a couple of hours for it)
 
 - Monday morning
 	- Get together with your team and complete the project proposal as outlined in the Day 16 README doc.
