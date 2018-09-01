@@ -3,12 +3,12 @@
 
 ## Team Resources
 
-[Wireframes](https://github.com/...)
-[Code Repository](https://github.com/codefellows/seattle-301d37/projects/1)
-[Wiki](https://github.com/codefellows/seattle-301d37/wiki)
-[Agile Board](http://www.github.com/myrepo)
-[Live App (Heroku)](http://myapp.herokuapp.com)
-... other resources?
+- [Wireframes](https://github.com/...)
+- [Code Repository](https://github.com/codefellows/seattle-301d37/projects/1)
+- [Wiki](https://github.com/codefellows/seattle-301d37/wiki)
+- [Agile Board](http://www.github.com/myrepo)
+- [Live App (Heroku)](http://myapp.herokuapp.com)
+- ... other resources?
 ___
 
 ## Application Summary
